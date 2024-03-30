@@ -6,8 +6,8 @@ import SettingsButton from "./Settingsbuttton";
 import {useContext, useState, useEffect, useRef} from "react";
 import SettingsContext from "./SettingsContext";
 
-const red = '#f54e4e';
-const green = '#4aec8c';
+const red = '#03fffb';
+const green = '#e100ff';
 
 function Timer() {
   const settingsInfo = useContext(SettingsContext);
